@@ -44,5 +44,5 @@ There will be a folder called `FilePP`, which contains `current_list.csv` and `f
 - `current_list.csv` is automatically saved upon quitting the application.
 - `font_size.csv` is also automatically saved upon quitting the application.
 
-### How to stop execution
+### How to cancel command execution
 Ensure the app window is in focus, then press the Escape key.

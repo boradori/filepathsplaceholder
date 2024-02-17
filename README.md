@@ -28,7 +28,10 @@ The File Paths Placeholder is a dynamic desktop application designed to streamli
 
 <img width="1102" alt="Screenshot 2024-02-16 at 11 14 48 PM" src="https://github.com/boradori/filepathsplaceholder/assets/6808478/d166d692-eda7-4cd2-aed1-020fd8b106a2">
 
-## Getting Started:
+## Things to know:
+### How to start
+Clone the repository or just download `fpp.py` and then run the following command.
+
 ```python
 python fpp.py
 ```
@@ -36,3 +39,7 @@ or
 ```python
 python3 fpp.py
 ```
+### Additional files
+There will be a folder called `FilePP`, which contains `current_list.csv` and `font_size.csv`.
+- `current_list.csv` is automatically saved upon quitting the application.
+- `font_size.csv` is also automatically saved upon quitting the application.

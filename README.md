@@ -43,3 +43,6 @@ python3 fpp.py
 There will be a folder called `FilePP`, which contains `current_list.csv` and `font_size.csv`.
 - `current_list.csv` is automatically saved upon quitting the application.
 - `font_size.csv` is also automatically saved upon quitting the application.
+
+### How to stop execution
+Ensure the app window is in focus, then press the Escape key.

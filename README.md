@@ -9,19 +9,19 @@ The File Paths Placeholder is a dynamic desktop application designed to streamli
 	- **Use "➕" button**: The File List Widget can store file paths, URLs, or any text string after entering `:}`.
 		- `:}` allows the following text string to be stored in the File List Widget. Otherwise, the widget does not save the entered text string.
 	- **Drag-and-Drop Functionality**: Drag and drop files into and out of the File List Widget (inspired by DropZone and Yoink for copying files).
-		- **Files**: Drag and drop files to the File List Widget from a folder. Drag and drop files to another folder, text editor, etc. from the File List Widget.
-		- **URLs**: Drag and drop URLs to the File List Widget from the web browsers. Drag and drop an URL to the web browser from the File List Widget.
+		- **Files**: Drag and drop files from a folder to the File List Widget. Drag and drop files from the File List Widget to another folder, text editor, etc.
+		- **URLs**: Drag and drop URLs from the web browsers to the File List Widget. Drag and drop a URL to the web browser from the File List Widget.
 		- Easily rearrange file paths and URLs within the widget using the built-in drag-and-drop feature, enhancing user interaction and efficiency.
 - **Expand**: Expand the app window to access the side widgets.
-- **Left List Widget** (the left of the File List Widget): Store commands on the left hand side of the File List Widget.
+- **Left List Widget** (the left of the File List Widget): Store commands on the left-hand side of the File List Widget.
 	- **Enter**: Edit item text
 	- **Store commands**: Store commands such as `python`, `python -m`, `node`, `open`, `sleep`, `yt-dl...` etc.
 - **Play List Widget**:
-	- **Command Execution**: Execute commands based on the listed file paths or URLs by clicking the "▶" button, or by pressing "Enter" or the "Space bar"
+	- **Command Execution**: Execute commands based on the listed file paths or URLs by clicking the "▶" button or by pressing "Enter" or the "Space bar."
 	- **Run All Commands**: Click on the large "▶" button to execute every command one at a time (from top to bottom).
-- **Right List Widget** (the right of the File List Widget): Store commands on the right hand side of the File List Widget.
-	- **Store commands**: Store commands that come after file paths or URL.
-	- Any text string that comes after `:}` in this widget is ignored. Use it as `comment`.
+- **Right List Widget** (the right of the File List Widget): Store commands on the right-hand side of the File List Widget.
+	- **Store commands**: Store commands after file paths or URLs.
+	- Any text string that comes after `:}` in this widget is ignored. Use it as a `comment`.
 - **List Management**: Import and export lists of file paths, URLs, or commands as CSV files, making it easy to save progress and share lists between sessions or with other users.
 - **Font Size Adjustment**: Customize the app's appearance by adjusting the font size, ensuring accessibility and personal preference accommodation. Use `Cmd +` and `Cmd -` .
 - **Refresh**: Click on the "🔄" button to see if any file path no longer exists.
@@ -30,7 +30,11 @@ The File Paths Placeholder is a dynamic desktop application designed to streamli
 
 ## Things to know:
 ### How to start
-Clone the repository or just download `fpp.py` and then run the following command.
+Clone the repository or download `fpp.py`, install dependencies, and run the following command.
+
+```python
+pip install pyqt5
+```
 
 ```python
 python fpp.py
